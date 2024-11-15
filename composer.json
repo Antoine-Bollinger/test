@@ -1,6 +1,7 @@
 {
     "name": "abollinger/aaa",
     "type": "project",
+    "description": "package for testing",
     "require": {
         "abollinger/helpers": "^1.2",
         "abollinger/bricolo": "^1.6"
@@ -20,5 +21,6 @@
         "post-create-project-cmd": [
             "@php src/index.php"
         ]
-    }
+    },
+    "license": "MIT"
 }
