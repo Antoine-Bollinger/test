@@ -19,7 +19,7 @@
     ],
     "scripts": {
         "post-create-project-cmd": [
-            "@php src/index.php"
+            "@php public/index.php"
         ]
     },
     "license": "MIT"
