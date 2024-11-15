@@ -1,0 +1,24 @@
+{
+    "name": "abollinger/aaa",
+    "type": "project",
+    "require": {
+        "abollinger/helpers": "^1.2",
+        "abollinger/bricolo": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abollinger\\Aaa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antoine Bollinger",
+            "email": "antoine.bollinger@gmail.com"
+        }
+    ],
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php src/index.php"
+        ]
+    }
+}
